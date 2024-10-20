@@ -6,7 +6,7 @@
         <title>CV Johan Meisel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- SEO -->
+        <!-- SEO Open Graph-->
         <meta property="og:title" content="CV Johan Meisel">
         <meta property="og:type" content="profile">
         <meta property="og:url" content="https://johanswebb.se/">
@@ -14,6 +14,32 @@
         <meta property="og:description" content="Välkommen till mitt CV. Jag är en passionerad utvecklare med erfarenhet inom blockchain och webbutveckling.">
         <meta property="og:site_name" content="Johan Meisel - CV">
         <meta property="og:locale" content="sv_SE">
+
+        <!-- SEO Structured data -->
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Johan Meisel",
+              "jobTitle": "Blockchain Developer",
+              "url": "https://johanswebb.se/",
+              "image": "https://johanswebb.se/img/johan_meisel.jpg",
+              "sameAs": [
+                "https://www.linkedin.com/in/johan-meisel-4787a25a/",
+                "https://github.com/Jommei",
+                "https://open.spotify.com/artist/1mIn6826vK9DicYCZdo9Gn?si=whdk84L6S6GvJNnyAJ1tlg"
+              ],
+              "description": "Jag är en passionerad utvecklare med erfarenhet inom blockchain och webbutveckling.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Tegelformsgatan 10",
+                "addressLocality": "Mölndal",
+                "postalCode": "431 36",
+                "addressCountry": "SE"
+              },
+              "telephone": "+46 736 106 349"
+            }
+            </script>
     </head>
     <body>
 
@@ -58,14 +84,11 @@
                         <li>
                             <strong>Länkar</strong><br>
                             <a href="https://www.linkedin.com/in/johan-meisel-4787a25a/" aria-label="Länk till Johans LinkedIn">
-                                <img src="/img/linkedin.svg" width="30" height="30" alt="LinkedIn ikon">
-                            </a>
+                                <img src="/img/linkedin.svg" width="30" height="30" alt="LinkedIn ikon"></a>
                             <a href="https://github.com/Jommei" aria-label="Länk till Johans GitHub">
-                                <img src="/img/github.svg" width="30" height="30" alt="GitHub ikon">
-                            </a>
+                                <img src="/img/github.svg" width="30" height="30" alt="GitHub ikon"></a>
                             <a href="https://open.spotify.com/artist/1mIn6826vK9DicYCZdo9Gn?si=whdk84L6S6GvJNnyAJ1tlg" aria-label="Länk till Johans Spotify">
-                                <img src="/img/spotify.svg" width="30" height="30" alt="Spotify ikon">
-                            </a>
+                                <img src="/img/spotify.svg" width="30" height="30" alt="Spotify ikon"></a>
                         </li>
                     </ul>
                 </fieldset>
@@ -80,8 +103,8 @@
                             Språk: Engelska, Svenska
                         </li>
                         <li>
+                            <strong>Teknisk kompetens</strong>
                             <ul>
-                                <strong>Teknisk kompetens</strong>
                                 <li>
                                     Solidity
                                 </li>
